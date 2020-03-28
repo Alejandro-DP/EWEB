@@ -30,10 +30,10 @@ header {
 ul {
     list-style: none;
 }
-#hero {
-    background-image:url(../img/hero.jpg);
+/*#hero {
+    background-image:url(~/Content/img/baner.jpe);
     height: 350px;
-}
+}*/
 #encabezado {
     margin: 30px 0;
 }
