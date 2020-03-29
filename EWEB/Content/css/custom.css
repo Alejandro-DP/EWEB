@@ -1,5 +1,5 @@
 body {
-    background-color: #fff6f6
+    background-color:#fff6f6;
 }
 h1 {
     text-align: center;
@@ -30,10 +30,14 @@ header {
 ul {
     list-style: none;
 }
-/*#hero {
-    background-image:url(~/Content/img/baner.jpe);
-    height: 350px;
-}*/
+#hero {
+    background-image: url(../img/animals.jpg);
+    background-repeat: no-repeat;
+    height: 370px;
+    background-size: cover;
+    background-color:transparent;
+  
+}
 #encabezado {
     margin: 30px 0;
 }
@@ -61,8 +65,8 @@ ul {
     color: white;
 }
 .contenido-hero {
-    margin-top: 80px;
-    color: white;
+    margin-top: 79px;
+    color: black;
 }
 .contenido-hero form {
     position: relative;
@@ -172,4 +176,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', end
 display: block;
 margin-bottom: 10px;
 text-decoration: none;
+}
+.logo{
+
 }
